@@ -42,7 +42,14 @@ img
     margin-top: 80px;
     padding-left: 140px;
     padding-right: 140px;
-
-     max-width: 100%;
+    max-width: 100%;
     height: auto;
+}
+h2
+{
+    color:#777;
+    margin-bottom:35px;
+    margin-top:53px;
+    padding-left: 140px;
+
 }
