@@ -4,12 +4,6 @@
     box-sizing:border-box;
     
 }
-
-
-
-
-
-
 nav
 {
     display:flex;
@@ -36,6 +30,7 @@ nav form
     font-size:20px;
     cursor:pointer; 
 }
+
 img
 {
     display: block;
@@ -44,12 +39,82 @@ img
     padding-right: 140px;
     max-width: 100%;
     height: auto;
+    
 }
+.wrapper
+{
+    display: flex;
+    gap: 20px;
+}
+.box
+{
+   flex: 1; 
+}
+
+
 h2
 {
     color:#777;
     margin-bottom:35px;
     margin-top:53px;
     padding-left: 140px;
+
+}
+.man
+{ 
+    display: flex;
+    gap: 30px;
+    padding-left: 140px;
+    max-width: 483px;
+    height: 150px;
+
+}
+.card
+{   display: block;  
+    width: 200px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-size: 14px;
+    margin-left: 140px;
+  h3
+  {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    color: #777;
+  }
+  p
+  {
+    color: #777;
+  }
+  a
+  {
+    color: #777;
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+  }
+}
+
+.man1
+{ 
+    display: flex;
+    gap: 30px;
+    padding-left: 140px;
+    max-width: 483px;
+    height: 150px;
+
+}
+
+.boy
+{
+    display: flex;
+    gap: 30px;
+    padding-left: 140px;
+    max-width: 483px;
+    height: 150px;
 
 }
