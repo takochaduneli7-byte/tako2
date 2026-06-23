@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'fonts';
+    
+    src:
+         url('../fonts/alkdots-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alkdots-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alkdots-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         
+}
 *{
     margin:0;
     padding:0;
@@ -90,6 +99,8 @@ h2
     margin-bottom:35px;
     margin-top:53px;
     padding-left: 140px;
+    font-family: "Arial GEO BoldItalic", sans-serif;
+
 
 }
 
